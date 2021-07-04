@@ -10,6 +10,18 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+class button extends React.Component{
+    constructor() {
+        super();
+    }
+    han(){
+
+    }
+
+}
+
+const messaage = "hi guyz";
+const element = <p>{messaage}</p>
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
